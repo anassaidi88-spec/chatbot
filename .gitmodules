@@ -1,0 +1,20 @@
+[submodule "apps/vtc-copilot-mobile"]
+	path = apps/vtc-copilot-mobile
+	url = https://github.com/mythtechno/vtc-copilot-mobile.git
+	branch = develop
+[submodule "apps/monplein-copilot-mobile"]
+	path = apps/monplein-copilot-mobile
+	url = https://github.com/mythtechno/monplein-copilot-mobile.git
+	branch = develop
+[submodule "apps/borne-recharge-copilot-mobile"]
+	path = apps/borne-recharge-copilot-mobile
+	url = https://github.com/mythtechno/borne-recharge-copilot-mobile.git
+	branch = develop
+[submodule "apps/zonevigilance-copilot-mobile"]
+	path = apps/zonevigilance-copilot-mobile
+	url = https://github.com/mythtechno/zonevigilance-copilot-mobile.git
+	branch = develop
+[submodule "apps/carburant-copilot-mobile"]
+	path = apps/carburant-copilot-mobile
+	url = https://github.com/mythtechno/carburant-copilot-mobile.git
+	branch = develop

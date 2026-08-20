@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "flutter": {
+    "enabled": true
+  },
+  "gitSubmodules": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchManagers": ["gitSubmodules"],
+      "matchFileNames": ["apps/**"],
+      "groupName": "app submodules",
+      "description": "PR quand vtc-copilot-mobile ou monplein-copilot-mobile avance sur develop."
+    }
+  ]
+}
